@@ -1,5 +1,8 @@
-<!doctype html>
-<html lang="">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,7 +45,7 @@
     </header>
 
     <nav class="navdrawer-container promote-layer">
-      <h4>Navigation</h4>
+      <h4>Navigation !</h4>
       <ul>
         <li><a href="#/view1">View1</a></li>
         <li><a href="#/view2">View2</a></li>
@@ -52,6 +55,8 @@
 
     <main ng-view>
     </main>
+
+    <footer>Angular seed app: v<span app-version></span></footer>
 
     <!-- build:js scripts/angular.min.js -->
     <script src="scripts/bower_components/angular/angular.js"></script>
