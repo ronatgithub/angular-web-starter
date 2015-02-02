@@ -19,7 +19,7 @@ We also use a number of `node.js` tools to initialize and test angular-web-start
 its package manager (npm) installed.  You can get them from [http://nodejs.org/](http://nodejs.org/).
 
 ```
-sudo apt-get install -y nodejs nodejs-legacy
+sudo apt-get install -y npm nodejs nodejs-legacy
 ```
 
 Finnaly, angular-web-starter uses `Sass` to make style guide nice and modular,
@@ -32,7 +32,7 @@ Once you have Ruby, install Sass with the following command: `gem install sass`
 
 ```
 sudo apt-get install -y ruby
-gem install sass
+sudo gem install sass
 ```
 
 ### Clone angular-web-starter
